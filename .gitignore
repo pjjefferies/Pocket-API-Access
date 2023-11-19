@@ -1,0 +1,6 @@
+.venv/*
+data/*
+logs/*
+*.pyc
+*.csv
+configs/pocket_api_key_file.py

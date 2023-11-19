@@ -1,0 +1,35 @@
+
+base:
+    APP:  # Window Start-up
+        TITLE: "Pocket API Access"
+        WIDTH: 1290
+        HEIGHT: 800
+        X_LOC: 300
+        Y_LOC: 100
+
+        FROM_DATE_INITIAL: "1-Jan-2018"
+        # TO_DATE_INITIAL = dt.datetime.today().date()
+        FILTER_TEXT_INITIAL: ""
+
+
+        # Fonts
+        TITLE_FONT: ["Helvetica", 18, "bold"]
+        VAR_LABEL_FONT: ["Helvetica", "10"]
+        VAR_VAL_FONT: ["Helvetica", 10, "bold"]
+        TABLE_TITLE_FONT: ["Helvetica", 11, "bold"]
+        TABLE_VALUE_FONT: ["Helvetica", 11]
+        TABLE_SUPPLEMENTARY_FONT: ["Helvetica", 11, "italic"]
+        TABLE_SUBTITLE_FONT: ["Helvetica", 10, "bold"]
+
+        DATETIME_FORMAT: "%B %d, %Y: %I:%M:%S %p"
+        DATE_FORMAT: "%d-%m-%Y"
+
+    FILENAMES:
+        ARTICLE_HISTORY_LIST_BASE: "data\\Pocket_Saves_"
+        ARTICLE_COUNT_HISTORY:  "data\\Article_Count_History.csv"
+
+    LOGGING:
+        CONFIG_PATH: "configs/logging_config.yaml"
+
+dev:
+    BLANK: 0
