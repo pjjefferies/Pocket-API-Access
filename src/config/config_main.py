@@ -6,7 +6,7 @@ from box import Box
 import yaml
 
 CONFIG_LOC: str = "configs/pocket_api_access_config.yaml"
-env = "dev"
+ENV = "dev"
 
 
 def load_config() -> Box:
@@ -15,7 +15,7 @@ def load_config() -> Box:
         full_cfg: dict[str, Any] = yaml.safe_load(fp)
 
     a_cfg: Box = Box(
-        {**full_cfg["base"], **full_cfg[env]}, default_box=True, default_box_attr=None
+        {**full_cfg["base"], **full_cfg[ENV]}, default_box=True, default_box_attr=None
     )
 
     return a_cfg
