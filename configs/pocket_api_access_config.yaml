@@ -28,6 +28,14 @@ base:
         ARTICLE_HISTORY_LIST_BASE: "data\\Pocket_Saves_"
         ARTICLE_COUNT_HISTORY:  "data\\Article_Count_History.csv"
 
+    POCKET:
+        POST_REQUEST_URL: "https://getpocket.com/v3/oauth/request"
+        POST_REQUEST_REDIRECT_URL: "http://www.google.com"
+        POST_AUTHORIZE_URL: "https://getpocket.com/v3/oauth/authorize"
+        POST_GET_URL: "https://getpocket.com/v3/get"
+
+
+
     LOGGING:
         CONFIG_PATH: "configs/logging_config.yaml"
 
