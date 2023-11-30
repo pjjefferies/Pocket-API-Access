@@ -35,6 +35,23 @@ base:
         POST_GET_URL: "https://getpocket.com/v3/get"
 
 
+    PLOT:
+        FOLDER: "data\\plots"
+        SAVE_IMAGE_FILE_FORMAT: "Pocket_History_Plot_%Y_%m_%d.png"
+        FIGURE_SIZE:
+            HORIZ: 10
+            VERT: 5
+        DATA_LABEL:
+            FONT_SIZE: 8
+            ROTATION: 45
+        ARCHIVE:
+            TITLE: "Pocket Archive/Read Article History"
+            X_AXIS_TITLE: "Year / This Year As Of Date"
+            Y_AXIS_TITLE: "No. of Articles/Year"
+        UNREAD:
+            TITLE: "No. of Articles/Year"
+            X_AXIS_TITLE: "As of Date"
+            Y_AXIS_TITLE: "No. of Articles"
 
     LOGGING:
         CONFIG_PATH: "configs/logging_config.yaml"
